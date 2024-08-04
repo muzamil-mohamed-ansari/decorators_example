@@ -52,5 +52,6 @@ rate_limiter: Wraps the endpoint function to limit the number of requests based 
    Using Postman:
     Set up a GET request to http://127.0.0.1:8000/ with the header x-api-key: secret-api-key.
     Set up a GET request to http://127.0.0.1:8000/items/1 with the same header.
-Conclusion
-This project demonstrates how to enhance a FastAPI application with additional functionalities using decorators. It provides a clean and modular way to add logging, authentication, rate limiting, and performance monitoring to API endpoints. This approach helps in maintaining a clean codebase by separating cross-cutting concerns from the core business logic.
+
+5.Conclusion
+    This project demonstrates how to enhance a FastAPI application with additional functionalities using decorators. It provides a clean and modular        way to add logging, authentication, rate limiting, and performance monitoring to API endpoints. This approach helps in maintaining a clean codebase     by separating cross-cutting concerns from the core business logic.
